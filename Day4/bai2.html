@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 2</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bài 1</title>
+        <link rel="stylesheet" href="./bai2-style.css" />
+      </head>
+      <body>
+        <form class="form" action="#" method="post">
+          <h1>Send Message</h1>
+          <div class="form-item">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nhập họ và tên"
+              required
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="email">email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Nhập họ và tên"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="tel">Phone Number</label>
+            <textarea
+              name="tel"
+              id="tel"
+              placeholder="Nhập số điện thoại"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-item">
+            <label for="message">Content</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Nhập nội dung tin nhắn"
+              rows="5"
+            ></textarea>
+          </div>
+          <div class="form-item">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </body>
+    </html>
+  </body>
+</html>

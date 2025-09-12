@@ -1,0 +1,41 @@
+.form {
+  width: 100%;
+  margin: 30px auto;   
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.form-item input,
+.form-item textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box; 
+}
+
+.form-item button {
+  width: auto;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #53e755a0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+}
+
