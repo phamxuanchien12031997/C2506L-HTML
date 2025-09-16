@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+td{
+    background-color: #67eaf481;
+}
+
+/* .phone,
+td:last-child{
+    text-align: center;
+} */
+
+th {
+  background: #25e72bca;
+  color: white;
+}
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+tr:hover {
+  background: #d0ebff;
+}
