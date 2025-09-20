@@ -1,0 +1,15 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  flex: 1 1 calc(25% - 20px);
+  background: gray;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
