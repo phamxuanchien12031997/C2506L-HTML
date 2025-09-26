@@ -1,0 +1,11 @@
+#section {
+    display: flex;
+    justify-content: space-between;
+}
+#red, #green, #yellow{
+    background-color:rgba(128, 128, 128, 0.482);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+}

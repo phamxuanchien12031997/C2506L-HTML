@@ -1,9 +1,16 @@
-// document.getElementById("name").textContent = "Họ và tên: Phạm xuân chiến";
-// document.getElementById("name").innerHTML = `
-// <h1>Phạm xuân chiến</h1>
-// <h2>Địa chỉ</h2>
-// <h3>Thông tin</h3>
-// <p>Tuổi</p>
-// `
+let count = 0;
+const btn = document.getElementById("countBtn");
+const res = document.getElementById("result");
 
-document.getElementById("message").style.color = 'white';
+btn.addEventListener("click", () => {
+  count++;
+  res.textContent = "Số lần:" + count;
+  localStorage.setItem("name", "Phạm Chiến");
+  localStorage.setItem("date", "12/03/1997");
+
+  localStorage.getItem("name");
+
+  localStorage.removeItem("date");
+
+  localStorage.clear();
+});
