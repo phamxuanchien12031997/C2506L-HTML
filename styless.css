@@ -1,14 +1,27 @@
-*{
-    margin: 5px;
+  *{
+    margin: 0;
     padding: 0;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+  .section{
+    display: flex;
+    gap: 10px;
+  justify-content: space-between;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
-.cards {
-  display: flex;
-  gap: 50px;
-}
-.card {
-  flex:auto;
-  background: white;
+.item {
+  background: lightblue;
   padding: 20px;
   text-align: center;
 }
