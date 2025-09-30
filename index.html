@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee demo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="top-banner-content">
+            Vào cửa hàng trên ứng dụng NBT-Shop | Kết nối 📱 💬
+            <div class="top-banner-right">
+                <span>🔔 Thông báo</span>
+                <span>🆘 Trợ giúp</span>
+                <span>👤 Nguyễn Bá Thế</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="#" class="shopee-logo">Shopee</a>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Tìm sản phẩm trong Shop này">
+                <select class="search-dropdown">
+                    <option>Trong Shop</option>
+                </select>
+                <button class="search-btn">🔍</button>
+            </div>
+            <div class="cart-container">
+                <div class="cart-icon">🛒</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <a href="#" class="category-menu">
+                📋 Danh mục
+            </a>
+            <div class="nav-tabs">
+                <a href="#" class="nav-tab">Sắp xếp theo</a>
+                <a href="#" class="nav-tab">Phổ biến</a>
+                <a href="#" class="nav-tab active">Mới nhất</a>
+                <a href="#" class="nav-tab">Bán chạy</a>
+            </div>
+            <div class="sort-section">
+                <select class="sort-dropdown">
+                    <option>Giá</option>
+                    <option>Giá thấp đến cao</option>
+                    <option>Giá cao đến thấp</option>
+                </select>
+                <div class="pagination-info">1/14</div>
+                <div class="pagination-nav">
+                    <button>‹</button>
+                    <button>›</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-header">
+                    📂 Danh mục
+                </div>
+                <div class="category-list">
+                    <div class="category-item active">Trang điểm mặt</div>
+                    <div class="category-item">Trang điểm môi</div>
+                    <div class="category-item">Trang điểm mắt</div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <main class="product-section">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">10%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-1" src="https://img.abaha.vn/photos/resized/320x/83-1618642699-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Kem lót nâng tông Ohui Makeup Ultimate...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.000.000₫</span>
+                            <span class="original-price">1.200.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">88 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">20%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-2" src="https://img.abaha.vn/photos/resized/320x/83-1618645481-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set nước hoa hồng Ohui Miracle Moisture Skin...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.050.000₫</span>
+                            <span class="original-price">1.300.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">850 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">20%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-3" src="https://img.abaha.vn/photos/resized/320x/83-1587707764-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set phấn phủ Ohui Ultimate Brightening...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.000.000₫</span>
+                            <span class="original-price">1.100.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">200 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">27%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-4" src="https://img.abaha.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set kem mắt tái sinh Ohui The First Geniture Eye...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.100.000₫</span>
+                            <span class="original-price">1.400.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">99 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">10%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-5" src="https://img.abaha.vn/photos/resized/320x/83-1580889448-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set sữa rửa mặt Ohui Prime Gel Cleanser</div>
+                        <div class="price-container">
+                            <span class="current-price">1.000.000₫</span>
+                            <span class="original-price">1.100.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">243 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">20%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                                                <img class="product-image product-6" src="https://img.abaha.vn/photos/resized/320x/83-1611561880-myphamohui-lgvina.png" alt="">
+
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set Phấn Nước Whoo GongJinHyang Mi Luxury...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.200.000₫</span>
+                            <span class="original-price">1.500.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">856 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">20%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-7" src="https://img.abaha.vn/photos/resized/320x/83-1597318354-myphamohui-lgvina.png"
+                            alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set kem chống nắng Whoo Seol radiant white tone u...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.200.000₫</span>
+                            <span class="original-price">1.300.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">45 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">10%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-8" src="https://img.abaha.vn/photos/resized/320x/83-1585291439-myphamohui-lgvina.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set Son Whoo Luxury Lip Rouge màu mới tình #88...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.000.000₫</span>
+                            <span class="original-price">1.100.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">422 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">20%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-9" src="https://img.abaha.vn/photos/resized/320x/83-1596535100-myphamohui-lgvina.png" alt="">
+
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Set dưỡng ẩm whoo hồng gongjinhyang soo vital...</div>
+                        <div class="price-container">
+                            <span class="current-price">1.100.000₫</span>
+                            <span class="original-price">1.200.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">200 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <div class="discount-label">23%</div>
+                        <div class="favorite-label">❤️ Yêu thích</div>
+                        <img class="product-image product-10" src="https://img.abaha.vn/photos/resized/320x/83-1591788607-myphamohui-lgvina.png" alt="">
+
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs Set</div>
+                        <div class="price-container">
+                            <span class="current-price">1.000.000₫</span>
+                            <span class="original-price">1.300.000₫</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="rating-container">
+                                <span class="stars">★★★★★</span>
+                                <span class="sold-count">400 đã bán</span>
+                            </div>
+                            <span class="store-name">Whoo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination-container">
+                <a href="#" class="pagination-btn">‹</a>
+                <a href="#" class="pagination-btn active">1</a>
+                <a href="#" class="pagination-btn">2</a>
+                <a href="#" class="pagination-btn">3</a>
+                <a href="#" class="pagination-btn">4</a>
+                <a href="#" class="pagination-btn">5</a>
+                <a href="#" class="pagination-btn">6</a>
+                <span class="pagination-dots">...</span>
+                <a href="#" class="pagination-btn">14</a>
+                <a href="#" class="pagination-btn">›</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Chăm sóc khách hàng</h4>
+                    <ul>
+                        <li><a href="#">Trung Tâm Trợ Giúp</a></li>
+                        <li><a href="#">TickID Mall</a></li>
+                        <li><a href="#">Hướng Dẫn Mua Hàng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Về TickID</h4>
+                    <ul>
+                        <li><a href="#">Giới Thiệu Về TickID Việt Nam</a></li>
+                        <li><a href="#">Tuyển Dụng</a></li>
+                        <li><a href="#">Điều Khoản TickID</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Danh mục</h4>
+                    <ul>
+                        <li><a href="#">Mỹ Phẩm</a></li>
+                        <li><a href="#">Quần Áo</a></li>
+                        <li><a href="#">Đồ điện tử</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Theo dõi chúng tôi trên</h4>
+                    <ul>
+                        <li><a href="#"><span class="social-icon">📘</span> Facebook</a></li>
+                        <li><a href="#"><span class="social-icon">📷</span> Instagram</a></li>
+                        <li><a href="#"><span class="social-icon">💼</span> Linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Tải Ứng Dụng Trên Cửa Hàng</h4>
+                    <div class="app-download">
+                        <div class="qr-code">
+                            <div class="qr-placeholder">📱</div>
+                        </div>
+                        <div class="store-links">
+                            <a href="#" class="store-link">📱 App Store</a>
+                            <a href="#" class="store-link">🤖 Google Play</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="company-info">
+                    <strong>CÔNG TY Nguyen Ba The</strong><br>
+                    <span>Email: nguyenbathe2711@gmail.com</span><br>
+                    <span>Phone: 0397880xxx</span><br>
+                    <span>Address: Học Viện Công Nghệ Bưu Chính Viễn Thông</span>
+                </div>
+                <div class="copyright">
+                    © 2024 Bản quyền thuộc về Nguyen Ba The
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+</body>
+
+</html>
